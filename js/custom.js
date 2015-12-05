@@ -2,7 +2,7 @@ $(document).ready(function( ){
 	//--------------Большой Слайдер
 	$(function() {
 		$('#slider').slick({
-			speed:1500,
+			speed:2000,
 			arrows:true,
 			infinite: true,
 			autoplay: true,
@@ -12,7 +12,7 @@ $(document).ready(function( ){
 	});
 	
 	//-------------Телефон
-	$(function(){$("[name=phone]").mask("+9 (999) 999-9999");	
+	$(function(){$("[name=phone]").mask("+380 (99) 999-9999");
 	});
 	
 	//---------Галерея фотографий	   
@@ -42,7 +42,6 @@ $(document).ready(function( ){
 				offset:100,
 				repeat:false
 			});
-			
 			jQuery('.animate4').addClass("hidden").viewportChecker({
 				classToAdd: 'visible animated fadeInLeft',
 				offset:100,

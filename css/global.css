@@ -134,13 +134,12 @@ input.error {box-shadow:0 0 7px 0 #c00 inset;}
 .complete {padding:20px 50px;position: absolute;top: 50%;margin-top: -75px;}
 
 /*?=header------------------- */
-header {position:relative;z-index:300;padding:30px 0 20px;}
-header .right {float:right;}
-header .right a {font:24px/24px 'TrajanPro3-Bold',arial;display:block;margin-bottom:17px;}
-header .right a:last-child {margin-bottom:0;}
+header {position:relative;z-index:300;padding:30px 0 20px; min-height: 85px;}
+.contacts_link  {font:24px/24px 'TrajanPro3-Bold',arial;display:block;margin-bottom:17px;}
+.contacts_link:last-child {margin-bottom:0;}
 
 /*?=slider------------------- */
-.slider {position:relative;background:url(../img/sliderBack.jpg) 50% 50% / cover no-repeat;height:658px;}
+.slider {position:relative;background:url(../img/moskomstroyinvest.jpg) 50% 50% / cover no-repeat;height:658px;}
 .slider h1 {font-size:36px;line-height:36px;font-weight:bold;color:#fff;text-transform:uppercase;text-align:center;padding:75px 0;text-shadow:0 1px 2px rgba(0,0,0,0.7)}
 .slick-slider {position:relative;margin:0 auto;height:300px;width:940px;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;  -webkit-touch-callout: none; -webkit-user-select:none;-khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; -ms-touch-action: none; -webkit-tap-highlight-color: transparent;}
 .slick-list { position:relative; overflow: hidden; display: block; margin: 0; padding: 0; }
@@ -165,7 +164,7 @@ header .right a:last-child {margin-bottom:0;}
 .slick-prev:hover,.slick-next:hover {opacity:0.8 !important;}
 
 /*?=blockForm------------------- */
-.blockForm {height:277px;width:100%;position:relative;background:url(../img/formBack.jpg) 50% 50% / cover no-repeat;}
+.blockForm {height:277px;width:100%;position:relative;background:url(../img/dogovor.jpg) 50% 50% / cover no-repeat;}
 .blockForm .wrapIn {width:950px;}
 .blockForm  .title {color:#000;float:left;width:545px;padding-top:90px;font:30px/32px 'Intro-Regular',arial;text-transform:uppercase;}
 .blockForm  .title span {letter-spacing:-1px;}
@@ -175,7 +174,7 @@ header .right a:last-child {margin-bottom:0;}
 .blockForm .form form {width:100%;padding:20px 55px;margin:0 auto;box-sizing:border-box;}
 
 /*?=meeting------------------- */
-.meeting {background:#f5f3ed;padding:80px 0;}
+.meeting {    background: #f5f3ed url('../img/group.jpg');padding: 80px 0;background-size: cover;background-position: -45px -190px; color: #fff;}
 .meeting .wrapIn {width:950px;text-align:center;}
 .meeting h2 {font-size:40px;line-height:40px;font-weight:500;margin-bottom:40px;}
 .meeting h2 b {font-weight:600;}
@@ -206,7 +205,7 @@ header .right a:last-child {margin-bottom:0;}
 .blockForm2 .form form .btn {font-size:19px;}
 
 /*?=schema------------------- */
-.schema {position:relative;padding:60px 0 500px;background:url(../img/schemaBack.jpg) 50% 0 / cover no-repeat;}
+.schema {position:relative;padding:60px 0 300px;background:url(../img/schemaBack.jpg) 50% 0 / cover no-repeat;}
 .schema .title {font-size:40px;line-height:40px;font-weight:600;margin-bottom:72px;text-align:center;}
 .schema img {position:absolute;top:170px;left:50%;margin-left:-43px}
 .schema .item {float:left;width:515px;margin-right:200px;font-size:24px;line-height:28px;font-weight:500;text-align:right;margin-bottom:57px;}
@@ -227,7 +226,7 @@ header .right a:last-child {margin-bottom:0;}
 .services .title {font-size:40px;line-height:40px;font-weight:600;margin-bottom:60px;text-align:center;}
 .services .item {float:left;width:362px;margin-right:57px;}
 .services .item .head {padding:23px 0;text-align:center;font-size:22px;line-height:26px;text-transform:uppercase;font-weight:500;color:#fff;text-shadow:0 0 10px rgba(0,0,0,0.14);border-radius:12px 12px 0 0;}
-.services .item .head span {display:block;font-size:32px;}
+.head span {display:block;font-size:32px;}
 .services .item.minimum .head,.services .item.minimum .price,.services .item.minimum .link {background:#b8cad7}
 .services .item.standart .head,.services .item.standart .price,.services .item.standart .link {background:#7aa402}
 .services .item.standart ul {border-left:3px solid #7aa402;border-right:3px solid #7aa402;border-bottom:3px solid #7aa402}
@@ -309,8 +308,8 @@ header .right a:last-child {margin-bottom:0;}
 
 /*?=map------------------- */
 .map {position:relative;}
-.map .info {position:absolute;top:20px;bottom:20px;width:475px;left:50%;margin-left:-477px;background:rgba(0,0,0,0.8);padding:30px 30px 0;z-index:10;}
-.map .info .line {display:block;color:#fff;font:22px/30px 'Intro-Regular',arial;margin-bottom:20px;padding-left:40px;text-transform:uppercase;}
+.map .info {position:absolute;top:20px;width:400px;left:50%;margin-left:-477px;background:rgba(0,0,0,0.5);padding:30px 30px 0;z-index:10;}
+.map .info .line {display:block;color:#fff;font:18px/26px 'Intro-Regular',arial;margin-bottom:20px;padding-left:40px;text-transform:uppercase;}
 .map .info .line.place {background:url(../img/ic1.png) 0 50% no-repeat;}
 .map .info .line.phone {background:url(../img/ic2.png) 0 50% no-repeat;}
 .map .info .line.mail {background:url(../img/ic3.png) 0 50% no-repeat;}
@@ -341,4 +340,47 @@ footer ul li a:hover {opacity:0.8;}
 {
 html,body {overflow-x:hidden;}
 .hidden {visibility:visible;}
+}
+
+/* general styles */
+
+.logo_link {
+    display: block;
+    position: absolute;
+    left: 0;
+    width: 220px;
+}
+
+.contacts_list {
+    position: absolute;
+    right: 0;
+    top: 50px;
+}
+
+.contacts_link {
+    color: #6DA084;
+}
+
+.slogan {
+    text-align: center;
+    font: 30px/24px 'TrajanPro3-Bold',arial;
+    padding-top: 20px;
+    color: #1E3D35;
+}
+
+
+.btn-get-info {
+    height: auto;
+    line-height: 25px;
+    padding-top: 5px;
+}
+
+.head .minimum__info {
+    font-size: 16px;
+}
+
+.save-4 {
+    border-radius: 50%;
+    overflow: hidden;
+    max-width: 305px;
 }
