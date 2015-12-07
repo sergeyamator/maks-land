@@ -1,5 +1,5 @@
 <?php
-$sendto  = 'max.puchyn@yandex.ru';
+$sendto  = 'puchynlawgroup@gmail.com';
 $content1  = nl2br($_POST['name']);
 $content2  = nl2br($_POST['phone']);
 // Формирование заголовка письма

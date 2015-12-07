@@ -9,6 +9,20 @@
           </mappings>
         </serverdata>
       </paths>
+      <paths name="build">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/build-yourself.ru/www/max-land" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="puch">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/puchyn.com/www" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
     </serverData>
   </component>
 </project>

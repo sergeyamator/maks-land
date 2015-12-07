@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="cba8e391-fdb7-40bf-86b4-f20b518d459a" name="build" url="http://buildyou.ftp.ukraine.com.ua">
+        <fileTransfer host="buildyou.ftp.ukraine.com.ua" port="21" password="df99dfe9dfffdfdadfe2dfd8df9cdf92" username="buildyou_ftp">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="9f456e65-afdd-432b-a8c8-a6d1c0b469e3" name="puch" url="http://puchyn.ftp.ukraine.com.ua">
+        <fileTransfer host="puchyn.ftp.ukraine.com.ua" port="21" password="dfffdfc1dfc8dfdcdfc9dfeddffadfcf" username="puchyn_ftp">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
